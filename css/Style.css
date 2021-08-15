@@ -16,11 +16,34 @@ h2{
 
 figure{
     margin: 30px;
-    padding: 15%;
+    padding: 15px;
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
 }
 figcaption{
     margin-top: 10px;
+}
+.matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.familia-tupfeln{
+    width: 275px;
+    float:right;
+}
+
+.figure img{
+    width: 100%;
+}
+
+.contato_subtitulo{
+    display: inline;
+}
+
+.contato_Info{
+    margin:16px 0 24px;
+    padding-left:32px;
 }
