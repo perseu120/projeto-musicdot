@@ -12,7 +12,7 @@
        
         <img src="img/logo.svg" alt="MusicDot">
 
-        <h1>Sobre a empresa</h1>
+        <h1 class="titulo">Sobre a empresa</h1>
         
         <p>
             A MusicDot é a maior escola online de música em todo o mundo.
@@ -26,7 +26,7 @@
             Mafra, em Santa Catarina </a>. De lá, saem grande parte das gravações de nossos cursos. Nossa matriz:
         </p>
 
-        <figure>
+        <figure class="matriz-musicdot">
             <img src="img/matriz-musicdot.png" alt="matriz da musicdot">
             <figcaption>
                  Matriz MusicDot 
@@ -40,10 +40,10 @@
             se tiver dúvidas. conheça também <a href="#historia"> nossa historia</a> e <a href="#diferenciais">nosso diferenciais</a>
         </p>
 
-        <h2 id="historia">Historia </h2>
+        <h2 id="historia" class="subtitulo">Historia </h2>
 
-        <figure>
-            <img src="img/familia-tupfeln.jpg" alt="matriz da musicdot">
+        <figure class="familia-tupfeln">
+            <img src="img/familia-tupfeln.jpg" alt="foto da familia tupfeln">
             <figcaption>
                  Familia tupfeln
             </figcaption>
@@ -77,7 +77,7 @@
             homenagens e condecorações. Todos os presidentes do Brasil já visitaram as instalações da MusicDot,
             além de presidentes da União Européia, Ásia e o secretário-geral da ONU.
         </p>
-        <h2 id="diferenciais"> Diferenciais </h2>
+        <h2 id="diferenciais" class="subtitulo"> Diferenciais </h2>
         <ul>
             <li> Menor preço do mercado, garantido </li>
 
@@ -98,27 +98,46 @@
             <li> Mais de um milhão de funcionários em todo o mundo </li>
         </ul>
 
-        <h3 class="contato_info"> Correspondência </h3>
-        <small> ( todos os dias, das 9h às 18h ) </small>
-        <address class="contato_info">
-                AOVS Sistemas de Informática S.A
-            <br>
-                Rua Vergueiro, 3185, 8o andar
-            <br>
-                Vila Mariana
-            <br>
-                São Paulo - SP
-        </address>
+        <h2 class="titulo"> Contato</h2>
 
-        <h3 class="contato_subtitulo">Telefones</h3>
-        <small> (segunda a sexta, das 9h às 18h) </small>
+        <div class="contato__secao">
+            <h3 class="contato__subtitulo"> Correspondência </h3>
+            <small> ( todos os dias, das 9h às 18h ) </small>
+            
+            <address class="contato__info">
+                    AOVS Sistemas de Informática S.A
+                <br>
+                    Rua Vergueiro, 3185, 8o andar
+                <br>
+                    Vila Mariana
+                <br>
+                    São Paulo - SP
+            </address>
 
-        <dl class="contato__info">
-            <dt> Pessoa Física: </dt>
-            <dd> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
-            <dt> Pessoa Jurídica: </dt>
-            <dd> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
-        </dl>
+        </div>
+
+        <div id="contato" class="contato__secao contato__secao--telefone">
+            <h3 class="contato_subtitulo">Telefones</h3>
+            <small> (segunda a sexta, das 9h às 18h) </small>
+
+            <dl class="contato__info">
+                
+                <div>
+                    <dt class="contato__info-titulo"> Pessoa Física: </dt>
+                    <dd class="contato__info-descricao"> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
+                </div>
+                
+                <div>
+                    <dt class="contato__info-titulo"> Pessoa Jurídica: </dt>
+                    <dd class="contato__info-descricao"> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
+                </div>
+
+            </dl>
+        </div>
+        <footer class="rodape">
+            <img src="img/logo.svg" alt="Logo da musicdot" class="rodape__logo">
+            <p class="rodape__copyright"> &copy; Copyright MusicDot </p>
+        </footer>
 
     </body>
 </html>
