@@ -41,18 +41,18 @@ figcaption{
 
 .familia-tupfeln{
     width: 275px;
-    float:right;
+    float: right;
 }
 
 .figure img{
     width: 100%;
 }
 
-.contato_subtitulo{
+.contato__subtitulo{
     display: inline;
 }
 
-.contato_secao{
+.contato__secao{
     display: inline-block;
     vertical-align: top;
     margin-left: 16px;
